@@ -1,0 +1,17 @@
+TEXT GAME IDEAS
+
+START:
+Ask name:
+Ask age:
+
+STORY INTRO:
+blah blah blah blah
+Chose a path: Desert or Caves
+Chose a weapon: Conditional on path?
+
+BRANCH 1 - DESERT
+
+
+
+
+BRANCH 2 - CAVES
