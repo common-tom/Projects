@@ -1,11 +1,9 @@
 import random
 moves = ('rock','paper','scissors')
-
-# need constraints on user input to limit answers #
 win = int()
 loss = int()
-games = int(input('how many games?: '))
-
+# need constraints on user input to limit answers #
+######################################################
 def shoot():
     global user
     user = input('Rock-Paper-Scissors- SHOOT\nYou: ')
@@ -15,12 +13,14 @@ def shoot():
     # print(f'You picked {user} computer picked {comp}')
     global games
     games -= 1
-
+####################################################
+games = int(input('how many games?: '))
 shoot()
 
 while games >= 1:
     if user == comp:
         print("\nTie\n")
+        games += 1
         shoot()
     if user == 'rock' and comp == 'scissors':
         print('\nYou Win!\n')
